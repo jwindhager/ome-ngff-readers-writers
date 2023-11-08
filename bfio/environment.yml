@@ -1,0 +1,10 @@
+name: bfio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - python<3.12
+  - pip
+  - pip:
+      - bfio
